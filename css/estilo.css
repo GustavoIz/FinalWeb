@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: khaki;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 100px 50px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho h2{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.cabecalho p{
+    padding-right: 10px;
+}
+.cabecalho p a{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner{
+    width: 1000px;
+    height: 1100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 35px;
+    
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+.box h2{
+    text-align: center;
+}
+#img-ini img{
+    width: 750px;
+    height: 400px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.box p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px;
+    display: flex;
+}
+.rodape{
+    width: 1000px;
+    height: 10vh;
+    background-color: brown;
+    margin: 0 auto;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rodape p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large
+    font-weight: bold;
+}
+.conteiner p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img-ini h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+table{
+    color: black;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 300px;
+}
+.conteiner td{
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+.box img{
+    width: 400px;
+    height: 390px;
+    align-items: center;
+    margin: 0 auto;
+    margin: 0 28%;
+}
+iframe{
+    margin: 0 19%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
+}
+nav{
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+}
+.card{
+    background-color: white;
+    margin: 5px 10px;
+    padding: 6px;
+}
+.formd{
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px #999;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    font: 1em arial;
+    border: 1px solid #999;
+}
+label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+button{
+    background-color: white;
+    border: 1px solid rgb(21,4,98);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+}
+
